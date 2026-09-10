@@ -1,0 +1,26 @@
+{
+  "name": "h00w-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "framer-motion": "^12.0.0",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.468.0",
+    "next": "15.5.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
