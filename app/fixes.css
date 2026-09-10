@@ -1,0 +1,80 @@
+/* Targeted layout fixes for the portfolio hero, About section, and project media. */
+
+/* Keep the complete transparent portrait visible and proportional. */
+.hero-visual {
+  position: relative;
+  min-height: 650px;
+  overflow: visible;
+  display: block;
+}
+
+.hero-shape {
+  z-index: 0;
+}
+
+.hero-photo {
+  position: absolute !important;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: auto !important;
+  height: min(610px, 76vh) !important;
+  max-width: 94% !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  display: block;
+}
+
+.hero-badge {
+  z-index: 5;
+}
+
+/* Make About a deliberate two-column editorial composition. */
+#about .shell > div:nth-child(2) {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+  gap: 24px !important;
+  align-items: stretch;
+}
+
+#about .shell > div:nth-child(2) > div:first-child {
+  display: flex;
+  align-items: center;
+  min-height: 202px;
+  padding: 30px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.92);
+  border: 1px solid rgba(79,113,157,.12);
+  box-shadow: 0 24px 70px rgba(61,92,132,.08);
+}
+
+#about .shell > div:nth-child(2) > div:first-child p {
+  margin: 0;
+}
+
+/* Keep project artwork proportional and avoid broken-looking empty media areas. */
+.project-cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 940px) {
+  .hero-visual { min-height: 560px; }
+  .hero-photo { height: min(540px, 68vh) !important; }
+}
+
+@media (max-width: 700px) {
+  .hero-visual { min-height: 455px; }
+  .hero-photo {
+    height: 440px !important;
+    max-width: 100% !important;
+  }
+  #about .shell > div:nth-child(2) {
+    grid-template-columns: 1fr !important;
+  }
+}
