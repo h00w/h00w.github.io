@@ -25,23 +25,11 @@ The visual system is inspired by the clean composition of ErysCode7/Web-Portfoli
 
 ## Content editing
 
-Most profile content lives in:
-
-```text
-lib/site.ts
-```
-
-Edit this file for profile summary, skills/capabilities, featured projects, experience, leadership positioning, and links/contact details.
+Most profile content lives in `lib/site.ts`. Edit this file for profile summary, skills/capabilities, featured projects, experience, leadership positioning, and links/contact details.
 
 ## Adding a blog article
 
-Create a Markdown file in:
-
-```text
-content/blog/
-```
-
-Copy `content/blog/_TEMPLATE.md`, rename it to a clean slug such as `building-reliable-ai-agents.md`, update the front matter and Markdown body, and commit to `main`. GitHub Actions will rebuild the site.
+Create a Markdown file in `content/blog/`. Copy `content/blog/_TEMPLATE.md`, rename it to a clean slug such as `building-reliable-ai-agents.md`, update the front matter and Markdown body, and commit to `main`. GitHub Actions will rebuild the site.
 
 ## Development
 
@@ -59,16 +47,8 @@ npm run build
 
 ## Deployment
 
-Repository:
+Repository: `h00w/h00w.github.io`
 
-```text
-h00w/h00w.github.io
-```
-
-GitHub Pages target:
-
-```text
-https://h00w.github.io/
-```
+GitHub Pages target: **https://h00w.github.io/**
 
 The deployment workflow is stored in `.github/workflows/deploy-pages.yml`.
