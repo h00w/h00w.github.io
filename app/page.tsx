@@ -46,7 +46,7 @@ export default function Home() {
           <div className="hero-visual" aria-label="Portrait of Hendar Mawan">
             <div className="hero-shape" aria-hidden="true" />
             <img
-              src="/hendarmawan.png"
+              src="/hendarmawan.jpg"
               alt="Hendar Mawan — AI engineering leader"
               className="hero-photo"
             />
