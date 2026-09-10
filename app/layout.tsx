@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://h00w.github.io"),
   title: "Hendar Mawan | AI Engineering Leader & AI Architect",
   description: site.tagline,
-  keywords: ["AI Engineer","Director of AI","AI Architect","Production AI","AI Governance","Edge AI","MLOps","DevSecOps","Enterprise AI"],
+  keywords: ["AI Engineer","AI Engineering Leader","Director of AI","AI Architect","Production AI","AI Governance","Edge AI","MLOps","DevSecOps","Enterprise AI"],
   authors: [{ name: site.name, url: site.github }],
   openGraph: {
     title: "Hendar Mawan | AI Engineering Leader",
