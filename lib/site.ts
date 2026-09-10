@@ -27,7 +27,7 @@ export const projects = [
     role: "Project Lead · R&D Leadership · Multi-company AI programme",
     tags: ["Edge AI", "AI Lifecycle", "Industrial AI", "Governance"],
     href: "https://www.life-ai.se/",
-    cover: "/lifeai.jpg"
+    cover: "/lifeai.png"
   },
   {
     title: "Secure Edge AI Governance",
