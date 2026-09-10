@@ -6,7 +6,7 @@ This portfolio is positioned around the progression:
 
 **AI Engineer → AI Architect → Director of AI**
 
-The visual system is inspired by the clean composition of ErysCode7/Web-Portfolio, but rebuilt as a distinct light artwork-driven design for Hendar Mawan: generous white space, pastel-blue geometry, strong modern typography, project artwork and a senior AI engineering / technology leadership narrative.
+The visual system is inspired by the clean composition of ErysCode7/Web-Portfolio, while remaining a distinct design for Hendar Mawan: generous white space, pastel-blue geometric artwork, strong modern typography, a portrait-led hero, project artwork, and a senior AI engineering / technology leadership narrative.
 
 ## Visual identity
 
@@ -31,14 +31,7 @@ Most profile content lives in:
 lib/site.ts
 ```
 
-Edit this file for:
-
-- profile summary
-- skills/capabilities
-- featured projects
-- experience
-- leadership positioning
-- links/contact details
+Edit this file for profile summary, skills/capabilities, featured projects, experience, leadership positioning, and links/contact details.
 
 ## Adding a blog article
 
@@ -48,13 +41,7 @@ Create a Markdown file in:
 content/blog/
 ```
 
-Copy `content/blog/_TEMPLATE.md`, rename it to a clean slug such as:
-
-```text
-building-reliable-ai-agents.md
-```
-
-Update the front matter and Markdown body, commit to `main`, and GitHub Actions will rebuild the site.
+Copy `content/blog/_TEMPLATE.md`, rename it to a clean slug such as `building-reliable-ai-agents.md`, update the front matter and Markdown body, and commit to `main`. GitHub Actions will rebuild the site.
 
 ## Development
 
@@ -72,7 +59,7 @@ npm run build
 
 ## Deployment
 
-The repository is the GitHub Pages user site repository:
+Repository:
 
 ```text
 h00w/h00w.github.io
