@@ -26,7 +26,8 @@ export const projects = [
     description: "Lifecycle-first operating model for deploying, monitoring, governing and safely updating AI across distributed industrial fleets.",
     role: "Project Lead · R&D Leadership · Multi-company AI programme",
     tags: ["Edge AI", "AI Lifecycle", "Industrial AI", "Governance"],
-    href: "https://www.life-ai.se/"
+    href: "https://www.life-ai.se/",
+    cover: "/lifeai.png"
   },
   {
     title: "Secure Edge AI Governance",
