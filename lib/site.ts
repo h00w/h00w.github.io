@@ -26,7 +26,8 @@ export const projects = [
     description: "Lifecycle-first Edge AI for industrial fleets: optimization, governed deployment, monitoring, rollback and operational evidence.",
     role: "Project Lead · R&D Leadership · Multi-company AI programme",
     tags: ["Edge AI", "AI Lifecycle", "Industrial AI", "Governance"],
-    href: "https://www.life-ai.se/"
+    href: "https://www.life-ai.se/",
+    cover: "/lifeai.jpg"
   },
   {
     title: "Secure Edge AI Governance",
