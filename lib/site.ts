@@ -23,11 +23,10 @@ export const projects = [
   {
     title: "LIFE-AI",
     eyebrow: "Industrial AI Programme",
-    description: "Lifecycle-first operating model for deploying, monitoring, governing and safely updating AI across distributed industrial fleets.",
+    description: "Lifecycle-first Edge AI for industrial fleets: optimization, governed deployment, monitoring, rollback and operational evidence.",
     role: "Project Lead · R&D Leadership · Multi-company AI programme",
     tags: ["Edge AI", "AI Lifecycle", "Industrial AI", "Governance"],
-    href: "https://www.life-ai.se/",
-    cover: "/lifeai.png"
+    href: "https://www.life-ai.se/"
   },
   {
     title: "Secure Edge AI Governance",
