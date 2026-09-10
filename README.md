@@ -6,17 +6,17 @@ This portfolio is positioned around the progression:
 
 **AI Engineer → AI Architect → Director of AI**
 
-The visual system is inspired by the clean portfolio composition of ErysCode7/Web-Portfolio, but rebuilt as a distinct light editorial design for Hendar Mawan: white space, pastel blue geometry, structured typography, project artwork and a senior AI engineering / technology leadership narrative.
+The visual system is inspired by the clean composition of ErysCode7/Web-Portfolio, but rebuilt as a distinct light artwork-driven design for Hendar Mawan: generous white space, pastel-blue geometry, strong modern typography, project artwork and a senior AI engineering / technology leadership narrative.
 
 ## Visual identity
 
 - Light white / soft-blue background
-- Pastel blue and lavender artwork geometry
+- Pastel blue and lavender geometric artwork
 - **Plus Jakarta Sans** for display typography
 - **Manrope** for body typography
-- No calligraphy/script fonts
-- Responsive Erys-inspired hero composition
-- Professional AI engineering and leadership positioning
+- No calligraphy or script fonts
+- Responsive portrait-led hero composition
+- Professional AI engineering, architecture and leadership positioning
 
 ## Main assets
 
