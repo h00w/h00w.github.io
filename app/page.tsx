@@ -32,7 +32,7 @@ export default function Home() {
             </div>
 
             <div className="hero-eyebrow">Hello, I&apos;m</div>
-            <h1 className="display">Hendar<br/>Mawan</h1>
+            <h1 className="display">Hendar Mawan</h1>
             <div className="hero-role">AI Engineering Leader</div>
             <p>{site.summary}</p>
 
@@ -46,7 +46,7 @@ export default function Home() {
           <div className="hero-visual" aria-label="Portrait of Hendar Mawan">
             <div className="hero-shape" aria-hidden="true" />
             <img
-              src="/hendarmawan.png"
+              src="./public/hendarmawan.jpg"
               alt="Hendar Mawan — AI engineering leader"
               className="hero-photo"
             />
