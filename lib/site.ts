@@ -57,7 +57,7 @@ export const projects = [
     tags: ["LLMOps", "AI Evaluation", "DeepEval", "GitHub Actions", "Hugging Face"],
     href: "https://github.com/h00w/PromptPulse",
     demo: "https://prompt-pulse.streamlit.app/",
-    cover: "/PromptPulse.png"
+    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/promptpulse.png"
   }
 ];
 
