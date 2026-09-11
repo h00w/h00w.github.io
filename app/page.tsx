@@ -190,9 +190,13 @@ export default function Home() {
     </main>
 
     <footer>
-      <div className="shell" style={{display:"flex",justifyContent:"space-between",gap:20,flexWrap:"wrap"}}>
-        <span>© Hendar Mawan · h00w</span>
-        <span>AI engineering · architecture · governance · leadership</span>
+      <div className="shell" style={{display:"flex",justifyContent:"space-between",gap:20,flexWrap:"wrap",alignItems:"center"}}>
+        <span>© 2026 Hendarmawan, PhD Eng.</span>
+        <span style={{display:"flex",gap:14,flexWrap:"wrap"}}>
+          <a href="https://github.com/h00w/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/hender/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://hendarmawan.se" target="_blank" rel="noreferrer">hendarmawan.se</a>
+        </span>
       </div>
     </footer>
   </>;
