@@ -30,6 +30,16 @@ export const projects = [
     cover: "/lifeai.png"
   },
   {
+    title: "PromptPulse",
+    eyebrow: "Continuous LLM Evaluation & Release Gating",
+    description: "Production-oriented LLM quality pipeline that turns chatbot behavior into repeatable release gates across relevance, groundedness, reference coverage and policy compliance, with live Hugging Face inference and optional DeepEval semantic judging.",
+    role: "Architecture · LLM Evaluation · CI/CD · Production AI",
+    tags: ["LLMOps", "AI Evaluation", "DeepEval", "GitHub Actions", "Hugging Face"],
+    href: "https://github.com/h00w/PromptPulse",
+    demo: "https://prompt-pulse.streamlit.app/",
+    cover: "/PromptPulse.png"
+  },
+  {
     title: "Secure Edge AI Governance",
     eyebrow: "Governed AI Release Control",
     description: "Executable fail-closed governance for Edge AI releases with two-person approval, risk and drift gates, attestation evidence and MCP tooling.",
