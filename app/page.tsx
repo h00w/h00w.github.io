@@ -54,14 +54,6 @@ export default function Home() {
             <div className="hero-badge">AI Engineer → AI Architect → Director of AI</div>
           </div>
         </div>
-      </section>
-
-      <section id="about" className="section section-soft">
-        <div className="shell">
-          <div className="section-heading">
-            <div><div className="section-index">01</div><div className="kicker">About</div></div>
-            <h2 className="section-title">I build the systems around AI that make it dependable in the real world.</h2>
-          </div>
 
           <a
             href="/agentic-ai/"
@@ -82,6 +74,14 @@ export default function Home() {
               style={{display:"block",width:"100%",height:"auto"}}
             />
           </a>
+      </section>
+
+      <section id="about" className="section section-soft">
+        <div className="shell">
+          <div className="section-heading">
+            <div><div className="section-index">01</div><div className="kicker">About</div></div>
+            <h2 className="section-title">I build the systems around AI that make it dependable in the real world.</h2>
+          </div>
 
           <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",gap:24}}>
             <div>
