@@ -33,11 +33,11 @@ export const projects = [
   {
     title: "Agentic AI Academy",
     eyebrow: "Agentic AI Engineering",
-    description: "Engineering trustworthy AI agents from learning to production through practical patterns for reasoning, tool use, orchestration, evaluation, safety, observability and scalable deployment.",
+    description: "Engineering trustworthy AI agents from learning to production through a 14-module curriculum, practical engineering projects, evaluation, security, observability, governance and enterprise architecture.",
     role: "Curriculum Architecture · Agentic AI · Production AI · Open Source",
     tags: ["Agentic AI", "AI Agents", "LLM Engineering", "AI Architecture", "AI Governance"],
-    href: "https://github.com/h00w/agentic-ai/",
-    cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
+    href: "/agentic-ai/",
+    cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai-banner.png"
   },
   {
     title: "Secure Edge AI Governance",
