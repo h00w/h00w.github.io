@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai-banner.png",
+        url: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png",
         width: 1600,
         height: 800,
         alt: "Agentic AI Academy — From Learning to Implementation to Scale",
@@ -103,7 +103,7 @@ export default function AgenticAIAcademyPage() {
 
             <div style={{marginTop: 52, borderRadius: 28, overflow: "hidden", boxShadow: "0 28px 80px rgba(20,45,75,.16)", border: "1px solid rgba(110,145,180,.18)"}}>
               <img
-                src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai-banner.png"
+                src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
                 alt="Agentic AI — From Learning to Implementation to Scale"
                 style={{width: "100%", display: "block"}}
               />
