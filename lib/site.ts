@@ -35,11 +35,11 @@ export const projects = [
   {
     title: "Agentic AI Academy",
     eyebrow: "Agentic AI Engineering",
-    description: "Engineering trustworthy AI agents from learning to production through a 14-module curriculum, practical engineering projects, evaluation, security, observability, governance and enterprise architecture.",
-    role: "Curriculum Architecture · Agentic AI · Production AI · Open Source",
-    tags: ["Agentic AI", "AI Agents", "LLM Engineering", "AI Architecture", "AI Governance"],
+    description: "Engineering trustworthy AI agents from learning to production through a 14-module curriculum, live Hugging Face Playground, public evaluation and security benchmark, and Streamlit Engineering Lab for traces, regressions, release gates and operational evidence.",
+    role: "Curriculum Architecture · Agentic AI · Evaluation · Security · Production AI",
+    tags: ["Agentic AI", "AI Evaluation", "AI Security", "RAG", "AI Governance"],
     href: "/agentic-ai/",
-    demo: "https://huggingface.co/spaces/h0000w/hendar-agentic-ai",
+    demo: "https://agentic-ai-engineering-lab.streamlit.app/",
     cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
   },
   {
