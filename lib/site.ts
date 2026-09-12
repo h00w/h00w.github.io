@@ -37,6 +37,7 @@ export const projects = [
     role: "Curriculum Architecture · Agentic AI · Production AI · Open Source",
     tags: ["Agentic AI", "AI Agents", "LLM Engineering", "AI Architecture", "AI Governance"],
     href: "/agentic-ai/",
+    demo: "https://huggingface.co/spaces/h0000w/hendar-agentic-ai",
     cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
   },
   {
