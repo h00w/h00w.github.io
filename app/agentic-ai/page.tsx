@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Agentic AI Academy | Hendar Mawan, PhD",
   description:
-    "Engineering trustworthy AI agents from learning to production: a 14-module curriculum, engineering portfolio, security and evaluation reference, and enterprise capstone by Hendar Mawan, PhD.",
+    "Engineering trustworthy AI agents from learning to production: a 14-module curriculum, live Agentic AI Playground, evaluation benchmark, Engineering Lab, security and enterprise architecture by Hendar Mawan, PhD.",
   keywords: [
     "Agentic AI",
     "AI Engineering",
@@ -16,11 +16,13 @@ export const metadata: Metadata = {
     "AI Governance",
     "RAG",
     "Multi-Agent Systems",
+    "AI Evaluation",
+    "Agent Observability",
   ],
   openGraph: {
     title: "Agentic AI Academy — Engineering trustworthy AI agents from learning to production",
     description:
-      "Explore, implement and scale trustworthy AI agents through a professional curriculum, engineering labs, case studies and enterprise architecture.",
+      "Explore, implement, benchmark and operate trustworthy AI agents through a professional curriculum, live playground, evaluation dataset and engineering lab.",
     url: "https://hendarmawan.se/agentic-ai/",
     type: "website",
     images: [
@@ -66,6 +68,30 @@ const pillars = [
   ["SCALE", "Operate agents with security, observability, governance and enterprise architecture."],
 ];
 
+const liveStack = [
+  [
+    "Hugging Face Playground",
+    "Experience the agent",
+    "Run bounded agent scenarios, inspect RAG behavior, prompt-injection defenses, policy decisions and evaluation signals.",
+    "https://huggingface.co/spaces/h0000w/hendar-agentic-ai",
+    "Open Playground ↗",
+  ],
+  [
+    "Evaluation & Security Benchmark",
+    "Benchmark the agent",
+    "48 expert-authored synthetic cases across task success, tool routing, RAG groundedness, prompt injection, unsafe actions, policy, multi-agent coordination and regressions.",
+    "https://huggingface.co/datasets/h0000w/hendar-agentic-ai-dataset",
+    "Open Dataset ↗",
+  ],
+  [
+    "Streamlit Engineering Lab",
+    "Inspect, evaluate and operate",
+    "Run the benchmark, inspect traces and evidence, compare regressions, review security failures, enforce release gates and export evaluation reports.",
+    "https://agentic-ai-engineering-lab.streamlit.app/",
+    "Open Engineering Lab ↗",
+  ],
+];
+
 export default function AgenticAIAcademyPage() {
   return (
     <>
@@ -75,6 +101,7 @@ export default function AgenticAIAcademyPage() {
           <nav className="nav-links">
             <Link href="/">Portfolio</Link>
             <a href="#curriculum">Curriculum</a>
+            <a href="#live-stack">Live Stack</a>
             <a href="#architecture">Architecture</a>
             <a href="#capstone">Capstone</a>
             <a href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">GitHub ↗</a>
@@ -96,8 +123,9 @@ export default function AgenticAIAcademyPage() {
               <p className="muted" style={{marginTop: 4}}><strong>Hendar Mawan : AI Engineering Leader</strong><br />AI Engineering · AI Architecture · Agentic AI · Secure AI · Edge AI · AI Governance</p>
               <div className="hero-actions" style={{marginTop: 30}}>
                 <a className="btn btn-primary" href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Start Learning ↗</a>
+                <a className="btn btn-ghost" href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Try Playground ↗</a>
+                <a className="btn btn-ghost" href="https://agentic-ai-engineering-lab.streamlit.app/" target="_blank" rel="noreferrer">Open Engineering Lab ↗</a>
                 <a className="btn btn-ghost" href="#curriculum">View Curriculum</a>
-                <a className="btn btn-ghost" href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Try Agentic AI Playground ↗</a>
               </div>
             </div>
 
@@ -200,10 +228,37 @@ export default function AgenticAIAcademyPage() {
           </div>
         </section>
 
-        <section id="capstone" className="section section-soft">
+        <section id="live-stack" className="section section-soft">
           <div className="shell">
             <div className="section-heading">
-              <div><div className="section-index">05</div><div className="kicker">Flagship Capstone</div></div>
+              <div><div className="section-index">05</div><div className="kicker">Live Engineering Stack</div></div>
+              <h2 className="section-title">Experience it. Benchmark it. Operate it.</h2>
+            </div>
+            <div className="card-grid">
+              {liveStack.map(([title, eyebrow, copy, href, label]) => (
+                <article className="glass card" key={title}>
+                  <div className="kicker">{eyebrow}</div>
+                  <h3>{title}</h3>
+                  <p className="muted" style={{lineHeight: 1.78, fontSize: 14}}>{copy}</p>
+                  <div style={{marginTop: 20}}>
+                    <a className="btn btn-ghost" href={href} target="_blank" rel="noreferrer">{label}</a>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <div className="glass card" style={{padding: 24, marginTop: 20}}>
+              <strong>Public proof chain:</strong>
+              <p className="muted" style={{lineHeight: 1.8, marginBottom: 0}}>
+                Curriculum → implementation → evaluation & security dataset → interactive playground → engineering lab → release-gate evidence.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="capstone" className="section">
+          <div className="shell">
+            <div className="section-heading">
+              <div><div className="section-index">06</div><div className="kicker">Flagship Capstone</div></div>
               <h2 className="section-title">Responsible Enterprise Research Agent</h2>
             </div>
             <div className="glass card" style={{padding: 30}}>
@@ -226,10 +281,10 @@ export default function AgenticAIAcademyPage() {
           </div>
         </section>
 
-        <section className="section">
+        <section className="section section-soft">
           <div className="shell">
             <div className="section-heading">
-              <div><div className="section-index">06</div><div className="kicker">Professional Outcomes</div></div>
+              <div><div className="section-index">07</div><div className="kicker">Professional Outcomes</div></div>
               <h2 className="section-title">Build portfolio evidence for engineering, architecture, security and AI leadership roles.</h2>
             </div>
             <div style={{display: "flex", gap: 10, flexWrap: "wrap"}}>
@@ -238,16 +293,18 @@ export default function AgenticAIAcademyPage() {
           </div>
         </section>
 
-        <section className="section section-soft">
+        <section className="section">
           <div className="shell">
             <div className="callout">
               <div className="kicker">Open Source · Engineering First</div>
-              <h2 className="section-title" style={{marginTop: 10}}>Learn it. Build it. Evaluate it. Secure it. Scale it.</h2>
-              <p className="muted" style={{maxWidth: 820, lineHeight: 1.85}}>
-                GitHub is the canonical source for curriculum, runnable code, labs, tests, security patterns and enterprise architecture. The live Hugging Face Playground provides an interactive layer for bounded agents, RAG, prompt-injection controls, evaluation and architecture inspection; the advanced Streamlit engineering lab is the next deployment phase.
+              <h2 className="section-title" style={{marginTop: 10}}>Learn it. Build it. Benchmark it. Evaluate it. Secure it. Operate it.</h2>
+              <p className="muted" style={{maxWidth: 860, lineHeight: 1.85}}>
+                GitHub is the canonical source for curriculum, runnable code, labs, tests, security patterns and enterprise architecture. Hugging Face provides the live Agentic AI Playground and the public evaluation & security benchmark. The Streamlit Engineering Lab is the operational layer for traces, RAG evidence, security failures, regression comparison, latency/cost signals, release gates and downloadable evaluation reports.
               </p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Try Agentic AI Playground ↗</a>
+                <a className="btn btn-primary" href="https://agentic-ai-engineering-lab.streamlit.app/" target="_blank" rel="noreferrer">Open Engineering Lab ↗</a>
+                <a className="btn btn-ghost" href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Try Playground ↗</a>
+                <a className="btn btn-ghost" href="https://huggingface.co/datasets/h0000w/hendar-agentic-ai-dataset" target="_blank" rel="noreferrer">View Benchmark ↗</a>
                 <a className="btn btn-ghost" href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Explore GitHub ↗</a>
                 <Link className="btn btn-ghost" href="/">Back to Portfolio</Link>
               </div>
@@ -260,7 +317,9 @@ export default function AgenticAIAcademyPage() {
         <div className="shell" style={{display: "flex", justifyContent: "space-between", gap: 20, flexWrap: "wrap", alignItems: "center"}}>
           <span>© 2026 Hendar Mawan, PhD</span>
           <span style={{display: "flex", gap: 14, flexWrap: "wrap"}}>
+            <a href="https://agentic-ai-engineering-lab.streamlit.app/" target="_blank" rel="noreferrer">Engineering Lab</a>
             <a href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Live Playground</a>
+            <a href="https://huggingface.co/datasets/h0000w/hendar-agentic-ai-dataset" target="_blank" rel="noreferrer">Benchmark Dataset</a>
             <a href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Agentic AI GitHub</a>
             <a href="https://www.linkedin.com/in/hender/" target="_blank" rel="noreferrer">LinkedIn</a>
             <Link href="/">hendarmawan.se</Link>
