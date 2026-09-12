@@ -11,7 +11,7 @@ export default function Home() {
         <a href="#home" className="brand">HENDAR<span>.</span></a>
         <nav className="nav-links">
           <a href="#home">Home</a>
-          <a href="https://hendarmawan.se/agentic-ai/">Agentic AI</a>
+          <a href="https://hendarmawan.se/agentic-ai/" target="_blank" rel="noreferrer">Agentic AI</a>
           <a href="#about">About</a>
           <a href="#capabilities">Skills</a>
           <a href="#projects">Projects</a>
@@ -23,7 +23,32 @@ export default function Home() {
     </header>
 
     <main>
-      <section id="home" className="hero">
+      <section id="home" style={{paddingTop:94}}>
+        <div className="shell" style={{paddingTop:24,paddingBottom:8}}>
+          <a
+            href="https://hendarmawan.se/agentic-ai/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Explore Agentic AI Academy"
+            style={{
+              display:"block",
+              borderRadius:20,
+              overflow:"hidden",
+              border:"1px solid rgba(79,113,157,.14)",
+              boxShadow:"0 24px 70px rgba(61,92,132,.12)",
+              background:"#fff"
+            }}
+          >
+            <img
+              src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
+              alt="Agentic AI Academy — engineering trustworthy AI agents from learning to production"
+              style={{display:"block",width:"100%",height:"auto"}}
+            />
+          </a>
+        </div>
+      </section>
+
+      <section className="hero" style={{paddingTop:44}}>
         <div className="shell hero-grid">
           <div className="hero-copy">
             <div className="social-rail" aria-label="Social links">
@@ -55,27 +80,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <div className="shell" style={{paddingTop:28,paddingBottom:34}}>
-        <a
-          href="https://hendarmawan.se/agentic-ai/"
-          aria-label="Explore Agentic AI Academy"
-          style={{
-            display:"block",
-            borderRadius:20,
-            overflow:"hidden",
-            border:"1px solid rgba(79,113,157,.14)",
-            boxShadow:"0 24px 70px rgba(61,92,132,.12)",
-            background:"#fff"
-          }}
-        >
-          <img
-            src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
-            alt="Agentic AI Academy — engineering trustworthy AI agents from learning to production"
-            style={{display:"block",width:"100%",height:"auto"}}
-          />
-        </a>
-      </div>
 
       <section id="about" className="section section-soft">
         <div className="shell">
