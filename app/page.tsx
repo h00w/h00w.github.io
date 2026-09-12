@@ -11,6 +11,7 @@ export default function Home() {
         <a href="#home" className="brand">HENDAR<span>.</span></a>
         <nav className="nav-links">
           <a href="#home">Home</a>
+          <a href="/agentic-ai/">Agentic AI</a>
           <a href="#about">About</a>
           <a href="#capabilities">Skills</a>
           <a href="#projects">Projects</a>
@@ -61,6 +62,27 @@ export default function Home() {
             <div><div className="section-index">01</div><div className="kicker">About</div></div>
             <h2 className="section-title">I build the systems around AI that make it dependable in the real world.</h2>
           </div>
+
+          <a
+            href="/agentic-ai/"
+            aria-label="Explore Agentic AI Academy"
+            style={{
+              display:"block",
+              margin:"0 0 34px",
+              borderRadius:20,
+              overflow:"hidden",
+              border:"1px solid rgba(79,113,157,.14)",
+              boxShadow:"0 24px 70px rgba(61,92,132,.12)",
+              background:"#fff"
+            }}
+          >
+            <img
+              src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
+              alt="Agentic AI Academy — engineering trustworthy AI agents from learning to production"
+              style={{display:"block",width:"100%",height:"auto"}}
+            />
+          </a>
+
           <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(300px,1fr))",gap:24}}>
             <div>
               <p className="muted" style={{fontSize:"1.02rem",lineHeight:1.9}}>
