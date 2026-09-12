@@ -31,6 +31,15 @@ export const projects = [
     cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/lifeai.png"
   },
   {
+    title: "Agentic AI Academy",
+    eyebrow: "Agentic AI Engineering",
+    description: "Engineering trustworthy AI agents from learning to production through practical patterns for reasoning, tool use, orchestration, evaluation, safety, observability and scalable deployment.",
+    role: "Curriculum Architecture · Agentic AI · Production AI · Open Source",
+    tags: ["Agentic AI", "AI Agents", "LLM Engineering", "AI Architecture", "AI Governance"],
+    href: "https://github.com/h00w/agentic-ai/",
+    cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
+  },
+  {
     title: "Secure Edge AI Governance",
     eyebrow: "Governed AI Release Control",
     description: "Executable fail-closed governance for Edge AI releases with two-person approval, risk and drift gates, attestation evidence and MCP tooling.",
