@@ -97,7 +97,7 @@ export default function AgenticAIAcademyPage() {
               <div className="hero-actions" style={{marginTop: 30}}>
                 <a className="btn btn-primary" href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Start Learning ↗</a>
                 <a className="btn btn-ghost" href="#curriculum">View Curriculum</a>
-                <span className="btn btn-ghost" aria-disabled="true" title="Hugging Face demo planned for the next phase">Interactive Demo — Coming Soon</span>
+                <a className="btn btn-ghost" href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Try Agentic AI Playground ↗</a>
               </div>
             </div>
 
@@ -244,10 +244,11 @@ export default function AgenticAIAcademyPage() {
               <div className="kicker">Open Source · Engineering First</div>
               <h2 className="section-title" style={{marginTop: 10}}>Learn it. Build it. Evaluate it. Secure it. Scale it.</h2>
               <p className="muted" style={{maxWidth: 820, lineHeight: 1.85}}>
-                GitHub remains the canonical source for the curriculum, runnable code, labs, tests, security patterns and enterprise architecture. Interactive Hugging Face and Streamlit experiences will be added in the next deployment phase.
+                GitHub is the canonical source for curriculum, runnable code, labs, tests, security patterns and enterprise architecture. The live Hugging Face Playground provides an interactive layer for bounded agents, RAG, prompt-injection controls, evaluation and architecture inspection; the advanced Streamlit engineering lab is the next deployment phase.
               </p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Explore Agentic AI Academy ↗</a>
+                <a className="btn btn-primary" href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Try Agentic AI Playground ↗</a>
+                <a className="btn btn-ghost" href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Explore GitHub ↗</a>
                 <Link className="btn btn-ghost" href="/">Back to Portfolio</Link>
               </div>
             </div>
@@ -259,6 +260,7 @@ export default function AgenticAIAcademyPage() {
         <div className="shell" style={{display: "flex", justifyContent: "space-between", gap: 20, flexWrap: "wrap", alignItems: "center"}}>
           <span>© 2026 Hendar Mawan, PhD</span>
           <span style={{display: "flex", gap: 14, flexWrap: "wrap"}}>
+            <a href="https://huggingface.co/spaces/h0000w/hendar-agentic-ai" target="_blank" rel="noreferrer">Live Playground</a>
             <a href="https://github.com/h00w/agentic-ai" target="_blank" rel="noreferrer">Agentic AI GitHub</a>
             <a href="https://www.linkedin.com/in/hender/" target="_blank" rel="noreferrer">LinkedIn</a>
             <Link href="/">hendarmawan.se</Link>
