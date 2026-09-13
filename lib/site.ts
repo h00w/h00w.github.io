@@ -41,7 +41,7 @@ export const projects = [
     href: "/agentic-ai/",
     demo: "https://agentic-ai-engineering-lab.streamlit.app/",
     proof: "/agentic-ai/proof/",
-    cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
+    cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
   },
   {
     title: "AI Model Release Control Center",
