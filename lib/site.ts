@@ -44,6 +44,15 @@ export const projects = [
     cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
   },
   {
+    title: "Model Quality Release Gate",
+    eyebrow: "AI Evaluation · Model Release Engineering",
+    description: "A production-oriented gate for comparing baseline and candidate code-generation models across helpfulness, safety, reliability, correctness and latency, with explicit regression tolerances, failure inspection and explainable SHIP / INVESTIGATE / HOLD decisions.",
+    role: "Evaluation Architecture · Release Policy · AI Safety · MLOps",
+    tags: ["AI Evaluation", "Model Quality", "Release Gating", "AI Safety", "Hugging Face"],
+    href: "/model-quality-release-gate/",
+    demo: "https://huggingface.co/spaces/h0000w/model-quality-release-gate"
+  },
+  {
     title: "Secure Edge AI Governance",
     eyebrow: "Governed AI Release Control",
     description: "Executable fail-closed governance for Edge AI releases with two-person approval, risk and drift gates, attestation evidence and MCP tooling.",
