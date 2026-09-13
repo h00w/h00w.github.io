@@ -49,7 +49,7 @@ export const projects = [
     description: "An independent reference architecture for measurable, safe, longitudinal, multimodal human-centered AI, with executable evaluation, privacy and relationship-safety checks, release evidence and public model-facing evaluation artifacts.",
     role: "Reference Architecture · AI Assurance · Safety Evaluation · Privacy · Longitudinal AI",
     tags: ["AI Assurance", "Human-Centered AI", "AI Safety", "Evaluation", "Privacy", "Multimodal AI"],
-    href: "https://github.com/h00w/Human-Intelligence-Assurance-Lab",
+    href: "/projects/human-intelligence-assurance-lab/",
     demo: "https://huggingface.co/spaces/h0000w/Human-Intelligence-Assurance-Lab",
     cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/hia-lab.png"
   },
