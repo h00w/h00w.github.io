@@ -45,10 +45,10 @@ export const projects = [
   },
   {
     title: "AI Model Release Control Center",
-    eyebrow: "Production AI · Release Engineering · Phase 4",
-    description: "Production model-release control plane connecting live provider evaluation, deterministic safety/correctness evidence, optional LLM judging, CI enforcement, production-trace ingestion and evidence-linked model promotion.",
-    role: "Evaluation Architecture · Release Policy · CI Governance · Model Lifecycle · AI Safety",
-    tags: ["Production AI", "AI Evaluation", "Release Gating", "CI/CD", "AI Safety", "Hugging Face"],
+    eyebrow: "Post-Training · Research Engineering · Production AI",
+    description: "Research-to-production control plane connecting post-training experiments to baseline/candidate evaluation, causal investigation, deterministic safety/correctness evidence, CI release gates, production traces and evidence-linked model promotion.",
+    role: "Post-Training Evaluation · Research Engineering · Release Policy · CI Governance · Model Lifecycle",
+    tags: ["Post-Training", "AI Evaluation", "Research Engineering", "Release Gating", "Production AI", "AI Safety"],
     href: "/projects/model-quality-release-gate/",
     demo: "https://huggingface.co/spaces/h0000w/model-quality-release-gate"
   },
