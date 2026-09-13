@@ -40,7 +40,7 @@ export default function Home() {
             }}
           >
             <img
-              src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
+              src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
               alt="Agentic AI Academy — engineering trustworthy AI agents from learning to production"
               style={{display:"block",width:"100%",height:"auto"}}
             />
