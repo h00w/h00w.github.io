@@ -50,7 +50,8 @@ export const projects = [
     role: "Post-Training Evaluation · Research Engineering · Release Policy · CI Governance · Model Lifecycle",
     tags: ["Post-Training", "AI Evaluation", "Research Engineering", "Release Gating", "Production AI", "AI Safety"],
     href: "/projects/model-quality-release-gate/",
-    demo: "https://huggingface.co/spaces/h0000w/model-quality-release-gate"
+    demo: "https://huggingface.co/spaces/h0000w/model-quality-release-gate",
+    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/AI-Model-Release-Control-Center.png"
   },
   {
     title: "Secure Edge AI Governance",
