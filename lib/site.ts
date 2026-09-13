@@ -45,11 +45,11 @@ export const projects = [
   },
   {
     title: "AI Model Release Control Center",
-    eyebrow: "AI Evaluation · Release Engineering · Phase 1 Complete",
-    description: "Decision-first release control for AI code-generation models: compare baseline and candidate evidence, detect tolerance-aware regressions, inspect failures, explain the verdict, and enforce deterministic SHIP / INVESTIGATE / HOLD policy across six demo scenarios.",
+    eyebrow: "AI Evaluation · Release Engineering · Phase 2",
+    description: "Interactive model-release control center with baseline/candidate comparison, evaluation playground, configurable release-policy simulator, what-if analysis, safety and latency dashboards, dataset coverage explorer, regression detection, failure inspection, and explainable SHIP / INVESTIGATE / HOLD decisions.",
     role: "Evaluation Architecture · Release Policy · AI Safety · MLOps",
     tags: ["AI Evaluation", "Model Quality", "Release Gating", "AI Safety", "Hugging Face"],
-    href: "/model-quality-release-gate/",
+    href: "/projects/model-quality-release-gate/",
     demo: "https://huggingface.co/spaces/h0000w/model-quality-release-gate"
   },
   {
