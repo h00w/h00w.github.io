@@ -40,7 +40,7 @@ export default function Home() {
             }}
           >
             <img
-              src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
+              src="https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/agenticai-banner.png"
               alt="Agentic AI Academy — engineering trustworthy AI agents from learning to production"
               style={{display:"block",width:"100%",height:"auto"}}
             />
@@ -137,9 +137,10 @@ export default function Home() {
                 <p className="muted" style={{lineHeight:1.75,fontSize:14}}>{p.description}</p>
                 <div style={{fontSize:12,color:"#546d88",margin:"16px 0",fontWeight:700}}>{p.role}</div>
                 <div style={{display:"flex",flexWrap:"wrap",gap:7}}>{p.tags.map((t:string) => <span className="pill" key={t}>{t}</span>)}</div>
-                <div style={{display:"flex",gap:15,marginTop:22,fontSize:13,fontWeight:800,color:"#446a99"}}>
+                <div style={{display:"flex",gap:15,marginTop:22,fontSize:13,fontWeight:800,color:"#446a99",flexWrap:"wrap"}}>
                   <a href={p.href} target="_blank" rel="noreferrer">Explore ↗</a>
                   {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">Live demo ↗</a>}
+                  {p.proof && <a href={p.proof} target="_blank" rel="noreferrer">90-sec proof ↗</a>}
                 </div>
               </div>
             </article>)}
