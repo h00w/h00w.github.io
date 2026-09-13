@@ -7,13 +7,7 @@ tags: ["Agentic AI", "Production AI", "AI Evaluation", "AI Reliability", "AI Gov
 readingTime: "3 min"
 ---
 
-<div style="text-align:center; margin: 1.5rem auto 2rem;">
-  <img
-    src="https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/article-2.png"
-    alt="Why Agent Demos Fail in Production"
-    style="width:100%; max-width:900px; height:auto; display:block; margin:0 auto; border-radius:16px;"
-  />
-</div>
+![Why Agent Demos Fail in Production](/article-2.png)
 
 Agent demos are optimized to prove that something **can work**. Production systems have to prove that they can work **reliably, safely and repeatedly under conditions the demo never showed**.
 
