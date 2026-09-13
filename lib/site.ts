@@ -44,6 +44,16 @@ export const projects = [
     cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
   },
   {
+    title: "Human Intelligence Assurance Lab",
+    eyebrow: "Human-Centered AI Assurance",
+    description: "An independent reference architecture for measurable, safe, longitudinal, multimodal human-centered AI, with executable evaluation, privacy and relationship-safety checks, release evidence and public model-facing evaluation artifacts.",
+    role: "Reference Architecture · AI Assurance · Safety Evaluation · Privacy · Longitudinal AI",
+    tags: ["AI Assurance", "Human-Centered AI", "AI Safety", "Evaluation", "Privacy", "Multimodal AI"],
+    href: "https://github.com/h00w/Human-Intelligence-Assurance-Lab",
+    demo: "https://huggingface.co/spaces/h0000w/Human-Intelligence-Assurance-Lab",
+    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/hia-lab.png"
+  },
+  {
     title: "AI Model Release Control Center",
     eyebrow: "Post-Training · Research Engineering · Production AI",
     description: "Research-to-production control plane connecting post-training experiments to baseline/candidate evaluation, causal investigation, deterministic safety/correctness evidence, CI release gates, production traces and evidence-linked model promotion.",
