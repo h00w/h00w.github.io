@@ -9,6 +9,8 @@ readingTime: "3 min"
 
 <img src="https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/article-1.png" alt="How to Know Whether an AI System Is Ready to Ship" style="width:100%; max-width:900px; height:auto; display:block; margin:0 auto 2rem; border-radius:16px;" />
 
+<img src="../../public/article-1.png" alt="How to Know Whether an AI System Is Ready to Ship" style="width:100%; max-width:900px; height:auto; display:block;" />
+
 A model working is not the same as an AI system being ready for production.
 
 The more useful release question is not **“Is the model good enough?”** but **“Do we have enough evidence to expose this system to real users, real data and real consequences?”**
