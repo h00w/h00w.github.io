@@ -48,11 +48,9 @@ export default function Home() {
         </div>
 
         <div className="shell" style={{paddingTop:16,paddingBottom:8}}>
-          <a
-            href="https://huggingface.co/spaces/h0000w/Human-Intelligence-Assurance-Lab"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Explore Human Intelligence Assurance Lab"
+          <Link
+            href="/projects/human-intelligence-assurance-lab/"
+            aria-label="Explore Human Intelligence Assurance Lab case study"
             style={{
               display:"block",
               borderRadius:20,
@@ -67,7 +65,7 @@ export default function Home() {
               alt="Human Intelligence Assurance Lab — measurable, safe, longitudinal and multimodal human-centered AI"
               style={{display:"block",width:"100%",height:"auto"}}
             />
-          </a>
+          </Link>
         </div>
       </section>
 
