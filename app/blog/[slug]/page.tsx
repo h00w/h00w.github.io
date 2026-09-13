@@ -1,6 +1,7 @@
 import { getAllPosts, getPost } from "@/lib/blog";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import styles from "./blog-post.module.css";
 
 export function generateStaticParams() {
   return getAllPosts().map(post => ({ slug: post.slug }));
@@ -24,7 +25,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       <h1>{post.title}</h1>
       <p className="muted" style={{fontSize:"1.08rem"}}>{post.description}</p>
       <div className="blog-meta" style={{margin:"20px 0 38px"}}>{post.date} · {post.readingTime} · Hendar Mawan, PhD Eng.</div>
-      <div dangerouslySetInnerHTML={{__html: post.content || ""}} />
+      <div className={styles.content} dangerouslySetInnerHTML={{__html: post.content || ""}} />
       <div className="callout" style={{marginTop:48}}>
         <div className="kicker">About the author</div>
         <p>Hendar Mawan is an AI engineering leader working across production AI, Edge AI, secure AI infrastructure, platform architecture and R&D leadership.</p>
