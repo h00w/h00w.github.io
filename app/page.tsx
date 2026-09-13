@@ -46,6 +46,29 @@ export default function Home() {
             />
           </a>
         </div>
+
+        <div className="shell" style={{paddingTop:16,paddingBottom:8}}>
+          <a
+            href="https://huggingface.co/spaces/h0000w/Human-Intelligence-Assurance-Lab"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Explore Human Intelligence Assurance Lab"
+            style={{
+              display:"block",
+              borderRadius:20,
+              overflow:"hidden",
+              border:"1px solid rgba(79,113,157,.14)",
+              boxShadow:"0 24px 70px rgba(61,92,132,.12)",
+              background:"#fff"
+            }}
+          >
+            <img
+              src="https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/hia-lab.png"
+              alt="Human Intelligence Assurance Lab — measurable, safe, longitudinal and multimodal human-centered AI"
+              style={{display:"block",width:"100%",height:"auto"}}
+            />
+          </a>
+        </div>
       </section>
 
       <section className="hero" style={{paddingTop:44}}>
