@@ -45,10 +45,10 @@ export const projects = [
   },
   {
     title: "AI Model Release Control Center",
-    eyebrow: "AI Evaluation · CI Governance · Phase 3",
-    description: "Enforceable model-release control plane with machine-readable SHIP / INVESTIGATE / HOLD decisions, CI release blocking, tamper-evident evidence bundles, versioned benchmarks, safety/performance investigation and public Hugging Face artifacts.",
-    role: "Evaluation Architecture · Release Policy · CI Governance · AI Safety · MLOps",
-    tags: ["AI Evaluation", "Release Gating", "CI/CD", "AI Governance", "AI Safety", "Hugging Face"],
+    eyebrow: "Production AI · Release Engineering · Phase 4",
+    description: "Production model-release control plane connecting live provider evaluation, deterministic safety/correctness evidence, optional LLM judging, CI enforcement, production-trace ingestion and evidence-linked model promotion.",
+    role: "Evaluation Architecture · Release Policy · CI Governance · Model Lifecycle · AI Safety",
+    tags: ["Production AI", "AI Evaluation", "Release Gating", "CI/CD", "AI Safety", "Hugging Face"],
     href: "/projects/model-quality-release-gate/",
     demo: "https://huggingface.co/spaces/h0000w/model-quality-release-gate"
   },
