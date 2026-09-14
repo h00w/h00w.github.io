@@ -1,17 +1,35 @@
+import type { Metadata } from "next";
 import { getAllPosts, getPost } from "@/lib/blog";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import styles from "./blog-post.module.css";
 
+const canonicalOrigin = "https://hendarmawan.se";
+
 export function generateStaticParams() {
   return getAllPosts().map(post => ({ slug: post.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = await getPost(slug);
   if (!post) return {};
-  return { title: `${post.title} | Hendar Mawan`, description: post.description };
+
+  const canonicalUrl = `${canonicalOrigin}/blog/${slug}/`;
+
+  return {
+    title: `${post.title} | Hendar Mawan`,
+    description: post.description,
+    alternates: {
+      canonical: canonicalUrl
+    },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url: canonicalUrl,
+      type: "article"
+    }
+  };
 }
 
 export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
