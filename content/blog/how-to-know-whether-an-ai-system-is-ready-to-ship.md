@@ -7,7 +7,7 @@ tags: ["Production AI", "AI Evaluation", "AI Governance", "AI Safety", "MLOps"]
 readingTime: "3 min"
 ---
 
-![How to Know Whether an AI System Is Ready to Ship](/article-1.png)
+![How to Know Whether an AI System Is Ready to Ship](../../public/cover-article-1.png)
 
 A model working is not the same as an AI system being ready for production.
 
