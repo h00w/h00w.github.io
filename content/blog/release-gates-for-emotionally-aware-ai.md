@@ -7,7 +7,7 @@ tags: ["Emotionally Aware AI", "AI Governance", "AI Safety", "AI Evaluation", "H
 readingTime: "4 min"
 ---
 
-![Release Gates for Emotionally Aware AI](../../public/article-3.png)
+![Release Gates for Emotionally Aware AI](https://raw.githubusercontent.com/h00w/h00w.github.io/main/public/cover-article-3.png)
 
 When AI begins to infer, respond to, or adapt around human emotion, the release question changes.
 
