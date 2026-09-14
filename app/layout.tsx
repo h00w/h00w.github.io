@@ -11,9 +11,6 @@ export const metadata: Metadata = {
   description: site.tagline,
   keywords: ["AI Engineer","AI Engineering Leader","Director of AI","AI Architect","Production AI","AI Governance","Edge AI","MLOps","DevSecOps","Enterprise AI"],
   authors: [{ name: site.name, url: site.github }],
-  alternates: {
-    canonical: "/"
-  },
   openGraph: {
     title: "Hendar Mawan | AI Engineering Leader",
     description: site.tagline,
