@@ -2,14 +2,15 @@ export const site = {
   name: "Hendar Mawan, PhD",
   nickname: "h00w",
   location: "Stockholm, Sweden",
-  headline: "AI Engineering Leader | AI Architect | Director of AI Pathway",
-  tagline: "Building Production AI Systems. Leading Secure AI Transformation.",
-  summary: "AI engineering leader combining hands-on architecture, production AI systems, secure Edge AI, platform engineering and R&D leadership to turn prototypes into scalable, governed products.",
+  headline: "Production AI & Secure Agentic AI Engineering Leader",
+  tagline: "From prototype to governed production.",
+  summary: "Production AI and Secure Agentic AI engineering leader combining hands-on architecture, evaluation, security, release engineering, observability and lifecycle governance to move AI systems from prototype into reliable production.",
   website: "https://hendarmawan.se",
   github: "https://github.com/h00w",
   linkedin: "https://www.linkedin.com/in/hender/",
   lifeai: "https://www.life-ai.se/",
   academy: "https://hendarmawan.se/agentic-ai/",
+  advisory: "https://hendarmawan.se/advisory/",
   email: "hendar@hendarmawan.se"
 };
 
