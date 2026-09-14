@@ -33,13 +33,13 @@ For this class of system, strong performance in one dimension should not compens
 
 I use seven evidence domains to structure the release decision:
 
-- **Permissibility and purpose** — is the intended use legally, ethically, and organizationally acceptable?
-- **Data and consent** — are sensitive inputs collected, retained, and used with clear boundaries and appropriate consent?
-- **Inference validity** — does the system represent uncertainty rather than presenting ambiguous emotional signals as ground truth?
-- **Behavior and relationship safety** — does the system preserve human agency and avoid manipulation, coercion, inappropriate dependency, or exploitative personalization?
-- **Operational reliability** — does the complete system meet latency, availability, completeness, and provider-resilience requirements?
-- **Resilience and recovery** — can failures be detected, contained, escalated, and recovered without silently degrading into unsafe behavior?
-- **Rollout and monitoring** — can exposure begin gradually with explicit stop conditions, production telemetry, incident ownership, and rollback?
+- **Permissibility and purpose** : is the intended use legally, ethically, and organizationally acceptable?
+- **Data and consent** : are sensitive inputs collected, retained, and used with clear boundaries and appropriate consent?
+- **Inference validity** : does the system represent uncertainty rather than presenting ambiguous emotional signals as ground truth?
+- **Behavior and relationship safety** : does the system preserve human agency and avoid manipulation, coercion, inappropriate dependency, or exploitative personalization?
+- **Operational reliability** : does the complete system meet latency, availability, completeness, and provider-resilience requirements?
+- **Resilience and recovery** : can failures be detected, contained, escalated, and recovered without silently degrading into unsafe behavior?
+- **Rollout and monitoring** : can exposure begin gradually with explicit stop conditions, production telemetry, incident ownership, and rollback?
 
 The resulting policy should be explainable:
 
