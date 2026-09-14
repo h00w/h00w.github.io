@@ -71,7 +71,7 @@ export const projects = [
     tags: ["AI Governance", "MCP", "Security", "Human Approval"],
     href: "https://github.com/h00w/secure-edge-ai-governance",
     demo: "https://secure-edge-ai-governance.streamlit.app/",
-    cover: "https://raw.githubusercontent.com/h00w/secure-edge-ai-governance/refs/heads/main/edgeai.png"
+    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/secure-edge-ai-gov.png"
   },
   {
     title: "Production AI Automation",
@@ -81,7 +81,7 @@ export const projects = [
     tags: ["Production AI", "Automation", "Python", "CI/CD"],
     href: "https://github.com/h00w/production-ai-automation",
     demo: "https://pro-ai-automation.streamlit.app/",
-    cover: "https://raw.githubusercontent.com/h00w/production-ai-automation/refs/heads/main/cover.png"
+    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/production-ai-automation.png"
   },
   {
     title: "PromptPulse",
@@ -91,7 +91,7 @@ export const projects = [
     tags: ["LLMOps", "AI Evaluation", "DeepEval", "GitHub Actions", "Hugging Face"],
     href: "https://github.com/h00w/PromptPulse",
     demo: "https://prompt-pulse.streamlit.app/",
-    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/promptpulse.png"
+    cover: "https://raw.githubusercontent.com/h00w/h00w.github.io/refs/heads/main/public/prompt-pulse.png"
   }
 ];
 
