@@ -7,7 +7,7 @@ tags: ["Edge AI", "AI Governance", "AI Security", "Production AI", "MLOps", "IoT
 readingTime: "4 min"
 ---
 
-![Secure Lifecycle for Edge AI](../../public/cover-article-4.png)
+![Secure Lifecycle for Edge AI](https://raw.githubusercontent.com/h00w/h00w.github.io/main/public/cover-article-4.png)
 
 A model can be production-ready while the device is not.
 
