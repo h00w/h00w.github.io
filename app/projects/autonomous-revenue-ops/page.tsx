@@ -26,9 +26,10 @@ const controls = [
 ];
 
 const evidence = [
-  ["Regression suite", "116/116", "PASS"],
+  ["Regression suite", "119/119", "PASS"],
   ["Policy benchmark", "6/6", "100%"],
   ["Deterministic agent decisions", "7 cases", "100%"],
+  ["Public surface contracts", "3/3", "PASS"],
   ["Policy violations", "0", "PASS"],
   ["Release version contract", "v0.10.0", "PASS"],
   ["Release-integrity verification", "SBOM + manifest + provenance", "PASS"],
