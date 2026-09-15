@@ -45,6 +45,17 @@ export const projects = [
     cover: "https://raw.githubusercontent.com/h00w/agentic-ai/refs/heads/main/assets/agenticai.png"
   },
   {
+    title: "Autonomous Revenue Ops",
+    eyebrow: "Production AI Automation · Agentic RevOps",
+    description: "Governed revenue automation with multi-model agents, deterministic authorization, restart-safe workflow state, CRM/SaaS adapters, release gates, retained validation evidence and operational telemetry.",
+    role: "Architecture · Agentic AI · Workflow Automation · Reliability · Release Engineering",
+    tags: ["Agentic AI", "RevOps", "FastAPI", "n8n", "AI Governance", "Observability"],
+    href: "/projects/autonomous-revenue-ops/",
+    demo: "https://huggingface.co/spaces/h0000w/autonomous-revenue-ops",
+    proof: "https://github.com/h00w/autonomous-revenue-ops/blob/main/docs/public-proof.md",
+    cover: "https://raw.githubusercontent.com/h00w/autonomous-revenue-ops/refs/heads/main/autorevops-poster.png"
+  },
+  {
     title: "Human Intelligence Assurance Lab",
     eyebrow: "Human-Centered AI Assurance",
     description: "An independent reference architecture for measurable, safe, longitudinal, multimodal human-centered AI, with executable evaluation, privacy and relationship-safety checks, release evidence and public model-facing evaluation artifacts.",
