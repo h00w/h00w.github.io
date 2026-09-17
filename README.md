@@ -18,11 +18,6 @@ The visual system is inspired by the clean composition of ErysCode7/Web-Portfoli
 - Responsive portrait-led hero composition
 - Professional AI engineering, architecture and leadership positioning
 
-## Main assets
-
-- `public/hendarmawan.png` — hero portrait
-- `public/lifeai.jpg` — LIFE-AI project cover
-
 ## Content editing
 
 Most profile content lives in `lib/site.ts`. Edit this file for profile summary, skills/capabilities, featured projects, experience, leadership positioning, and links/contact details.
