@@ -1,4 +1,4 @@
-# Hendar Mawan — AI Engineering Leader Portfolio
+# Hendar Mawan - AI Engineering Leader Portfolio
 
 Source for **https://h00w.github.io/**.
 
