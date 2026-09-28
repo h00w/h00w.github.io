@@ -24,6 +24,17 @@ export const capabilities = [
 
 export const projects = [
   {
+    title: "Fjordfall",
+    eyebrow: "Uniplay Hackathon · Multiplayer Game",
+    description: "A name-only Viking multiplayer hunt for 1–10 players across five realms, with server-driven monsters, co-op revives, PvP duels, live scoring and a dragon finale.",
+    role: "Game Design · TypeScript · Server-authoritative Multiplayer",
+    tags: ["Multiplayer", "Game Design", "TypeScript", "Cloudflare Workers", "PvE / PvP"],
+    href: "/projects/fjordfall/",
+    demo: "https://fjordfall-uniplay.hendar2-0.chatgpt.site/",
+    demoLabel: "Owner-private review ↗",
+    cover: "https://raw.githubusercontent.com/h00w/fjordfall/main/assets/fjordfall-contest-cover.webp"
+  },
+  {
     title: "LIFE-AI",
     eyebrow: "Industrial AI Programme",
     description: "Lifecycle-first Edge AI for industrial fleets: optimization, governed deployment, monitoring, rollback and operational evidence.",
