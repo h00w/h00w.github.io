@@ -159,8 +159,8 @@ export default function Home() {
                 <div style={{fontSize:12,color:"#546d88",margin:"16px 0",fontWeight:700}}>{p.role}</div>
                 <div style={{display:"flex",flexWrap:"wrap",gap:7}}>{p.tags.map((t:string) => <span className="pill" key={t}>{t}</span>)}</div>
                 <div style={{display:"flex",gap:15,marginTop:22,fontSize:13,fontWeight:800,color:"#446a99",flexWrap:"wrap"}}>
-                  <a href={p.href} target="_blank" rel="noreferrer">Explore ↗</a>
-                  {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">Live demo ↗</a>}
+                  <a href={p.href} target="_blank" rel="noreferrer">{p.ctaLabel ?? "Explore ↗"}</a>
+                  {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">{p.demoLabel ?? "Live demo ↗"}</a>}
                   {p.proof && <a href={p.proof} target="_blank" rel="noreferrer">90-sec proof ↗</a>}
                 </div>
               </div>
