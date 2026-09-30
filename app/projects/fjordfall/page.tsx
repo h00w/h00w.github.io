@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Play Fjordfall | Hendar Mawan",
   description: "Play Fjordfall, a name-only multiplayer Viking hunt for 1–10 players.",
   openGraph: {
-    title: "Fjordfall: The Five Hunts",
+    title: "Fjordfall: The Dragon Hunt",
     description: "Gather your warband. Hunt across five realms. Face the dragon.",
     images: [cover],
   },
@@ -28,7 +28,7 @@ export default function FjordfallPage() {
       }}
     >
       <iframe
-        title="Fjordfall — The Five Hunts"
+        title="Fjordfall — The Dragon Hunt"
         src={game}
         loading="eager"
         allowFullScreen
