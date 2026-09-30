@@ -24,7 +24,7 @@ export const capabilities = [
 
 export const projects = [
   {
-    title: "Fjordfall",
+    title: "Fjordfall: The Dragon Hunt",
     ctaLabel: "Play here ↗",
     eyebrow: "Uniplay Hackathon · Multiplayer Game",
     description: "A name-only Viking multiplayer hunt for 1–10 players across five realms, with server-driven monsters, co-op revives, PvP duels, live scoring and a dragon finale.",
