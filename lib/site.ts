@@ -31,6 +31,7 @@ export const projects = [
     role: "Game Design · TypeScript · Server-authoritative Multiplayer",
     tags: ["Multiplayer", "Game Design", "TypeScript", "Cloudflare Workers", "PvE / PvP"],
     href: "/projects/fjordfall/",
+    repo: "https://github.com/h00w/fjordfall",
     cover: "https://raw.githubusercontent.com/h00w/fjordfall/main/assets/fjordfall-contest-cover.webp"
   },
   {
