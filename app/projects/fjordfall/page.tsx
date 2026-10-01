@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const game = "https://fjordfall-uniplay.hendar2-0.chatgpt.site/";
+const game = "https://fjordfall.hendar-rise.workers.dev/";
 const cover = "https://raw.githubusercontent.com/h00w/fjordfall/main/assets/fjordfall-contest-cover.webp";
 
 export const metadata: Metadata = {
