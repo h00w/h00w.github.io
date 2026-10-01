@@ -32,24 +32,9 @@ const jsonLd = {
   knowsAbout: ["Production AI","Agentic AI","AI Evaluation","AI Governance","Secure AI","Edge AI","MLOps","DevSecOps","Cybersecurity"]
 };
 
-const canonicalHostScript = `
-(function () {
-  var canonicalHost = "hendarmawan.se";
-  var host = window.location.hostname;
-  var isLocal = host === "localhost" || host === "127.0.0.1";
-  if (isLocal) return;
-
-  if (host !== canonicalHost || window.location.protocol !== "https:") {
-    window.location.replace(
-      "https://" + canonicalHost + window.location.pathname + window.location.search + window.location.hash
-    );
-  }
-})();
-`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return <html lang="en"><body>
-    <script dangerouslySetInnerHTML={{__html: canonicalHostScript}} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}} />
     {children}
     <Link
